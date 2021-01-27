@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "INSIGHT",
+    "slug": "INSIGHT",
+    "version": "2.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.energeyezer.insight",
+      "infoPlist": {
+        "NSCameraUsageDescription": "INSIGHT는 운동 동작 인식을 위해 카메라 권한이 필요합니다."
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "buildNumber": "2.0.1"
+    },
+    "android": {
+      "package": "com.energeyezer.insight",
+      "permissions": ["CAMERA"],
+      "versionCode": 3
+    }
+  }
+}
